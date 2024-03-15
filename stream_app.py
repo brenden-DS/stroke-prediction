@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import pickle
+
 model = pickle.load(open('stroke_model', 'rb'))
+
 def predict_stroke(feat_re):
     features = np.array(feat_re).reshape(1, -1)
     prediction = model.predict(features)
