@@ -17,6 +17,8 @@ The dataset used for training the model includes the following features:
 10. **Stroke**: The target variable indicating whether the individual had a stroke (0 for no, 1 for yes).
 
 These features are used to predict the likelihood of a stroke for a given individual. The web app provides an intuitive interface for users to input their information and receive a prediction regarding their stroke risk.The dataset is publicly available on kaggle https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
+Here's a link to the web apphttps://stroke-prediction007.streamlit.app/
+
 
 ## Usage
 To run the web app locally, make sure you have Streamlit installed. Then, simply run the following command:
